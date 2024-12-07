@@ -31,7 +31,7 @@ fetch("input.txt")
             return resultat
         }
         else {
-            droite()
+            droite(matrice, positionActuelle)
         } 
     }
 
@@ -50,7 +50,7 @@ fetch("input.txt")
             return resultat
         }
         else {
-            bas()
+            bas(matrice, positionActuelle)
         }
     }
 
@@ -69,7 +69,7 @@ fetch("input.txt")
             return resultat
         }
         else {
-            gauche()
+            gauche(matrice, positionActuelle)
         } 
     }
 
@@ -88,11 +88,11 @@ fetch("input.txt")
             return resultat
         }
         else {
-            haut()
+            haut(matrice, positionActuelle)
         }
     }
 
-    haut()
+    haut(matrice, positionActuelle)
     //A finir
 
     console.log(resultat)
